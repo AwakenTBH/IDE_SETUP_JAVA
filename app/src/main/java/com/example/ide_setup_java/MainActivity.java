@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         myButton3.setOnClickListener(v-> {
             myTextView.setBackgroundColor(Color.YELLOW);
                 });
+        //Comment for revert
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
