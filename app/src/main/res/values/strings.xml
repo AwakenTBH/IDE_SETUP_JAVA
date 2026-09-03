@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">IDE_SETUP_JAVA</string>
     <string name="text">Tekstas kuris tikrai nepasikeis</string>
-    <string name="button">Paspausk mane</string>
+    <string name="button">Keisti teksta</string>
+    <string name="button2">Keisti teksto spalva</string>
 </resources>

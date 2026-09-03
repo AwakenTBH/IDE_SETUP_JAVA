@@ -1,5 +1,6 @@
 package com.example.ide_setup_java;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         Button myButton = findViewById(R.id.button);
         myButton.setOnClickListener(v -> {
             myTextView.setText("TU PASPAUDEI MYGTUKA!");
+                });
+        Button myButton2 = findViewById(R.id.button2);
+        myButton2.setOnClickListener(v-> {
+            myTextView.setTextColor(Color.RED);
                 });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
