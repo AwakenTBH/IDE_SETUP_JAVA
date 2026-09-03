@@ -3,4 +3,5 @@
     <string name="text">Tekstas kuris tikrai nepasikeis</string>
     <string name="button">Keisti teksta</string>
     <string name="button2">Keisti teksto spalva</string>
+    <string name="button3">Keisti teksto fono spalva</string>
 </resources>
